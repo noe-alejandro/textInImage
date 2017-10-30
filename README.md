@@ -1,6 +1,13 @@
 # Text In Image
 Author: Noe Rojas
-## Software Requirements
+
+## Software Architecture & Requirements
+Software performs steganography on images.
+
+**insert-text.py** hides text within an image by extracting the least significant bit of each pixel starting from the bottom-left corner of the image. <br>
+
+**extract-text.py** extracts text that was performed by **insert-text.py**. <br>
+
 1. Python 3.6 or higher
 2. PIL (python image library) version 4.3.0 or higher
 ## Image Requirements
@@ -18,6 +25,8 @@ To embed text in the image run: <br>
 python3 insert-text.py <ARG1> <ARG2>
 ```
 Where **&lt;ARG1&gt;** is the name of the image, and **&lt;ARG2&gt;** is the name of the file with the hidden text <br>
+
+**Note:** You must create your own **text file** that will contain your message to hide. **The file must be .txt**
 
 **Example:**
 ```
