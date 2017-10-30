@@ -1,10 +1,12 @@
 # Text In Image
 Author: Noe Rojas
-
+## Software Requirements
+1. Python 3.6 or higher
+2. PIL (python image library) version 4.3.0 or higher
 ## Image Requirements
 1. Input image must be **JPG** or **JPEG** formats only.<br>
   &nbsp;&nbsp;**example: *my_image.jpg***
-2. Pixels must be in R,G,B format (red, blue, green) only.<br>
+2. Pixels must be in R, G, B format (red, green, blue) only.<br>
 &nbsp;&nbsp;**example: *(164,124,124)***<br>
 &nbsp;&nbsp;Note: Program does not support (R, G, B, A) or (R, G, B, W) encoded pixels.
 
