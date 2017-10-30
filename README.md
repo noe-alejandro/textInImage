@@ -24,7 +24,7 @@ Where **&lt;ARG1&gt;** is the name of the image, and **&lt;ARG2&gt;** is the nam
 python3 insert-text.py image.jpg hidden-message.txt
 ```
 
-When the program completes, there will be an image file that contains the embedded text at the project root folder. The image will contain its original file name, but the file extension will be **PNG**.
+When the program completes, there will be an image file that contains the embedded text at the project root folder. The image will contain its original file name, but with the file extension as **PNG**
 
 **Example**
 ```
