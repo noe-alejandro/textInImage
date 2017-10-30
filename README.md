@@ -2,11 +2,11 @@
 Author: Noe Rojas
 
 ## Image Requirements
-1. Input image must be JPG or JPEG formats only.<br>
+1. Input image must be **JPG** or **JPEG** formats only.<br>
   &nbsp;&nbsp;**example: *my_image.jpg***
 2. Pixels must be in R,G,B format (red, blue, green) only.<br>
 &nbsp;&nbsp;**example: *(164,124,124)***<br>
-&nbsp;&nbsp;Note: Program does not support R,G,B,A or R,G,B,W encoded pixels.
+&nbsp;&nbsp;Note: Program does not support (R, G, B, A) or (R, G, B, W) encoded pixels.
 
 ## Running The Program
 #### Embedding Text In Image
