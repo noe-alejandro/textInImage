@@ -11,7 +11,7 @@ Author: Noe Rojas
 &nbsp;&nbsp;Note: Program does not support (R, G, B, A) or (R, G, B, W) encoded pixels.
 
 ## Running The Program
-#### Embedding Text In Image
+###Embedding Text In Image
 To embed text in the image run: <br>
 
 ```
@@ -24,7 +24,7 @@ Where **&lt;ARG1&gt;** is the name of the image, and **&lt;ARG2&gt;** is the nam
 python3 insert-text.py image.jpg hidden-message.txt
 ```
 
-#### Extracting Text From Image
+### Extracting Text From Image
 To extract text from a text embeded image run:
 ```
 python3 extract-text.py <ARG1>
