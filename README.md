@@ -24,12 +24,19 @@ Where **&lt;ARG1&gt;** is the name of the image, and **&lt;ARG2&gt;** is the nam
 python3 insert-text.py image.jpg hidden-message.txt
 ```
 
+When the program completes, there will be an image file that contains the embedded text at the project root folder. The image will contain its original file name, but the file extension will be **PNG**.
+
+**Example**
+```
+orginal-file-name_hidden.png
+```
+
 ### Extracting Text From Image
 To extract text from a text embeded image run:
 ```
 python3 extract-text.py <ARG1>
 ```
-Where **&lt;ARG1&gt;** is the name of the text embeded image.
+Where **&lt;ARG1&gt;** is the name of the text embedded image.
 
 **Example:**
 ```
