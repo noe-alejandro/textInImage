@@ -11,7 +11,7 @@ Author: Noe Rojas
 &nbsp;&nbsp;Note: Program does not support (R, G, B, A) or (R, G, B, W) encoded pixels.
 
 ## Running The Program
-###Embedding Text In Image
+### Embedding Text In Image
 To embed text in the image run: <br>
 
 ```
