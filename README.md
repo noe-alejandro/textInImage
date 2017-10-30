@@ -1,5 +1,5 @@
-# Text In Image Program
-Name: Noe Rojas
+# Text In Image
+Author: Noe Rojas
 
 ## Image Requirements
 1. Input image must be JPG or JPEG formats only.<br>
@@ -15,9 +15,21 @@ To embed text in the image run: <br>
 ```
 python3 insert-text.py <ARG1> <ARG2>
 ```
-where **&lt;ARG1&gt;** is the name of the image, and **&lt;ARG2&gt;** is the name of the file with the hidden text <br>
+Where **&lt;ARG1&gt;** is the name of the image, and **&lt;ARG2&gt;** is the name of the file with the hidden text <br>
 
 **Example:**
 ```
 python3 insert-text.py image.jpg hidden-message.txt
+```
+
+#### Extracting Text From Image
+To extract text from a text embeded image run:
+```
+python3 extract-text.py <ARG1>
+```
+Where **&lt;ARG1&gt;** is the name of the text embeded image.
+
+**Example:**
+```
+python3 extract-text.py image_hidden.png
 ```
