@@ -4,7 +4,7 @@ Author: Noe Rojas
 ## Software Architecture & Requirements
 Software performs steganography on images.
 
-**insert-text.py** hides text within an image by extracting the least significant bit of each pixel starting from the bottom-left corner of the image. <br>
+**insert-text.py** hides text within an image by extracting the least significant bit of each pixel starting from the bottom-left corner of the image. Reads a JPG and text file .TXT as input (see Running The Program) and outputs a newly created PNG image.<br>
 
 **extract-text.py** extracts text that was performed by **insert-text.py**. <br>
 
