@@ -45,7 +45,8 @@ To extract text from a text embeded image run:
 ```
 python3 extract-text.py <ARG1>
 ```
-Where **&lt;ARG1&gt;** is the name of the text embedded image.
+Where **&lt;ARG1&gt;** is the name of the text embedded image. <br>
+Output will be displayed onto the terminal/console.
 
 **Example:**
 ```
